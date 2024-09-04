@@ -4,7 +4,7 @@
             <ico-form class="h-full w-full" />
         </div>
         <div
-            class="border-white backdrop-blur-md z-10 relative cont-form flex flex-col justify-center gap-10 p-4 border-2 rounded-md w-[70vw]">
+            class="border-white backdrop-blur-md z-10 relative cont-form flex flex-col justify-center gap-10 p-4 border-2 rounded-md w-[400px]">
             <div class="w-full cont-input">
                 <label class="text-white">Total Cuenta: $ 0.00 </label>
                 <input @keydown="validateNumber" @focus="resetInput" @blur="blurInput"
